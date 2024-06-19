@@ -200,6 +200,7 @@ func main() {
 		rules.ZendeskSecretKey(),
 		rules.GenericCredential(),
 		rules.InfracostAPIToken(),
+		rules.AzureDataFactory(),
 	}
 
 	// ensure rules have unique ids
